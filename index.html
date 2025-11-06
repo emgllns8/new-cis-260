@@ -9,6 +9,7 @@
     <title>Home Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Patrick+Hand&display=swap" rel="stylesheet">
     <style type="text/css">* {cursor: url(https://cur.cursors-4u.net/cursors/cur-6/cur548.cur), auto !important;}</style>
 </head>
@@ -24,16 +25,24 @@
         font-family: 'Patrick-Hand', Verdana;
     }
 
-    body {
-        background-image: url(images/crumpledbg.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        
-    }
+   body {
+        background-color: aliceblue;
+   } 
 
     ::selection {
         background: rgb(196, 255, 35); /* Pink background for selected text */
     }
+
+    #pencil-border {
+        border-style: dashed;
+        border-width: 2px;
+        border-color: gray;
+    }
+
+    #paper-lines {
+        height: 40px;
+    }
+
 </style>
 
 <body>
@@ -48,6 +57,25 @@
                 <a href="about.html" class="w3-bar-item w3-button w3-hover-none w3-hover-text-pink w3-border-bottom w3-border-blue">about me</a>
                 <a href="blog.html" class="w3-bar-item w3-button w3-hover-none w3-hover-text-pink w3-border-bottom w3-border-blue">blog</a>
                 <a href="projects.html" class="w3-bar-item w3-button w3-hover-none w3-hover-text-pink w3-border-bottom w3-border-blue">projects</a>
+                <div id="paper-lines" class="w3-bar-item w3-border-bottom w3-border-blue"></div>
+                <div id="paper-lines" class="w3-bar-item w3-border-bottom w3-border-blue"></div>
+                <div id="paper-lines" class="w3-bar-item w3-border-bottom w3-border-blue"></div>
+                <div id="paper-lines" class="w3-bar-item w3-border-bottom w3-border-blue"></div>
+                <div id="paper-lines" class="w3-bar-item w3-border-bottom w3-border-blue"></div>
+                <div id="paper-lines" class="w3-bar-item w3-border-bottom w3-border-blue"></div>
+                <div id="paper-lines" class="w3-bar-item w3-border-bottom w3-border-blue"></div>
+                <div id="paper-lines" class="w3-bar-item w3-border-bottom w3-border-blue"></div>
+                <div id="paper-lines" class="w3-bar-item w3-border-bottom w3-border-blue"></div>
+                <div id="paper-lines" class="w3-bar-item w3-border-bottom w3-border-blue"></div>
+                <div id="paper-lines" class="w3-bar-item w3-border-bottom w3-border-blue"></div>
+                <div id="paper-lines" class="w3-bar-item w3-border-bottom w3-border-blue"></div>
+                <div id="paper-lines" class="w3-bar-item w3-border-bottom w3-border-blue"></div>
+                <div id="paper-lines" class="w3-bar-item w3-border-bottom w3-border-blue"></div>
+                <div id="paper-lines" class="w3-bar-item w3-border-bottom w3-border-blue"></div>
+                <div id="paper-lines" class="w3-bar-item w3-border-bottom w3-border-blue"></div>
+                <div id="paper-lines" class="w3-bar-item w3-border-bottom w3-border-blue"></div>
+                <div id="paper-lines" class="w3-bar-item w3-border-bottom w3-border-blue"></div>
+                <div id="paper-lines" class="w3-bar-item w3-border-bottom w3-border-blue"></div>
 
                 <img src="images/minime.png" alt="a sketchy drawing of a girl" class="w3-image w3-display-bottommiddle" style="width: 100%; max-width: 700px;">
             
@@ -55,8 +83,8 @@
 
     <div class="w3-main" style="margin-left:200px">
 
-        <div class="w3-pale-red">
-            <button class="w3-button w3-pale-red w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
+        <div class="w3-blue-gray">
+            <button class="w3-button w3-blue-gray w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
 
         </div>
 
@@ -70,20 +98,40 @@
         }
     </script>
 
-    <div class="w3-container w3-center">
-        <h1 class="w3-patrick-hand w3-center">HOME!</h1>
+    <div class="w3-container w3-center" style="padding-left: 40%; padding-right: 40%; padding-top: 20px;">
+        <div id="pencil-border" class="w3-container w3-white w3-round-large">
+            <h1 class="w3-patrick-hand w3-center">HOME!</h1>
+        </div>
+        
     </div>
 
     <div class="w3-container w3-center w3-padding-16 w3-round-large" style="padding-left: 10%; padding-right: 10%; width: 100%; ">
-        <img src="images/me.jpeg" alt="a photo of a woman in a red sweater" class=" w3-circle" style="width: 100%; height: auto; max-width: 300px; justify-content: center; margin-bottom: 10px;">
+        <img src="images/me.jpeg" alt="a photo of a woman in a red sweater" class=" w3-circle" style="width: 100%; height: auto; max-width: 300px; justify-content: center; margin-bottom: 10px; padding-top: 25px;">
 
-        <p style="font-size: 17px;">Hello, my name is Evan and welcome to my website! This is part of a project for my CIS 260 course at Wilbur Wright College. The reason I decided to create a website for my project is because I wanted an outlet to be creative. While I want this website to be part of a portfolio, I still want it to feel like me and have that personality.</p>
+        <div id="pencil-border" class="w3-container w3-white w3-round-large" style="margin-top: 35px; margin-bottom: 30px;">
+            <p style="font-size: 17px;">Hello, my name is Evan and welcome to my website! This is part of a project for my CIS 260 course at Wilbur Wright College. The reason I decided to create a website is because I wanted an outlet to be creative, while also making something that will actually be useful to me. I want this website to be part of a portfolio, but I still want it to feel like me and have that personality and style.</p>
 
-        <p style="font-size: 17px;">The idea was to create something that resembles pen, paper, sticky notes, and other stationary; sort of a scholarly, notebook vibe. I am still in the process of learning, so I want this website to be a jumping off point, something that can continue to be fixed and tweaked. I want the website to grow with me and my career. </p>
+            <p style="font-size: 17px;">The idea was to create something that resembles pen, paper, sticky notes, and other stationary; sort of a scholarly, notebook vibe. I am still in the process of learning, so I want this website to be a jumping off point, something that can continue to be fixed and tweaked. I want the website to grow with me and my career. </p>
 
-        <p style="font-size: 17px; padding-bottom: 30px;">I hope that you enjoy exploring the other pages and seeing what I have to offer. I hope to update the website semi-regularly, especially the blog section as I will be graduating and navigating the work field and finding a job. Thank you for being here!</p>
+            <p style="font-size: 17px; padding-bottom: 14px;">I hope that you enjoy exploring the other pages and seeing what I have to offer. I hope to update the website semi-regularly, especially the blog section. Thank you for being here!</p>
+        </div>
+        
     </div>
 
+    <div class="w3-center">
+        <button style="margin-bottom: 50px;">
+            <a href="https://github.com/emgllns8" target="_blank">Go to my github!</a>
+        </button>
+
+        <button style="margin-bottom: 50px;">
+            <a href="https://www.linkedin.com/" target="_blank">Go to my linkedin!</a>
+        </button>
+
+        <button style="margin-bottom: 50px;">
+            <a href="#" target="_blank">Go to my resume!</a>
+        </button>
+    </div>
+    
     <footer class="w3-container w3-pale-blue w3-center" style="position: fixed; bottom: 0; width: 100%;">
         <p>to contact me, please email: emgllns8@gmail.com</p>
     </footer>
