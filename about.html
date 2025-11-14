@@ -36,6 +36,12 @@
         height: 40px;
     }
 
+    #pencil-border {
+        border-style: dashed;
+        border-width: 2px;
+        border-color: gray;
+    }
+
     ::selection {
         background: rgb(196, 255, 35); /* Pink background for selected text */
     }
@@ -93,20 +99,27 @@
         }
     </script>
     
-    <div class="w3-container w3-center">
-        <h1 class="w3-patrick-hand">ABOUT ME!</h1>
+    <div class="w3-container w3-center" style="padding-left: 40%; padding-right: 40%; padding-top: 20px;">
+        <div id="pencil-border" class="w3-container w3-white w3-round-large">
+            <h1 class="w3-patrick-hand">ABOUT ME!</h1>
+        </div>
     </div>
     
 
     <div class="content">
 
-        <!--<div class="background"></div>--><!-- <img src="images/crumpledbg.jpg" alt="a piece of crumpled gray paper"> -->
-        
-        <!-- <div class="background"></div> -->
+        <div class="w3-container w3-center w3-padding-16 w3-round-large" style="padding-left: 10%; padding-right: 10%; width: 100%;">
 
-        <p class="w3-container" style="padding-left: 6%; padding-right: 6%;">Some things about my background: I was born and raised in Chicago, but I live in Melrose Park now. I am bilingual, so I am able to speak both English and Spanish since I was little. As of October 2025, I am in my last semester at Wilbur Wright College in Chicago, getting my Associates Degree in Cybersecurity. I've always known that I wanted to go into the tech industry, but I really bounced around when it came to what kind of job I wanted to have in the future. I first started with editing my own blog on Tumblr when I was 11, to trying out some web design and web development, to thinking that I wanted to be a software engineer, and finally deciding that my actual interest is in cybersecurity... It has been a long ride! </p>
+            <div id="pencil-border" class="w3-container w3-white w3-round-large" style="margin-top: 35px; margin-bottom: 30px; padding-top: 20px; padding-bottom: 20px;">
 
-        <p class="w3-container" style="padding-left: 6%; padding-right: 6%;">Outside of school, I am interested in gaming, esports, music, and anime. I think that maybe every single one of those aspects is responsible for taking me down the path that I am on now, hahaha. I like to hang out with friends after a long day and play FPS games, spooky games, and now we are even thinking of starting up DnD sessions. That love, specifically for an FPS game named Valorant, has taken me down on a path to also loving esports. When the season has begun, you can usually find me up at early hours or having late nights to watch the games.</p>
+                <p class="w3-container" style="padding-left: 6%; padding-right: 6%; font-size: 17px;">Some things about my background: I was born and raised in Chicago, but I live in Melrose Park now. I am bilingual, so I am able to speak both English and Spanish since I was little. As of October 2025, I am in my last semester at Wilbur Wright College in Chicago, getting my Associates Degree in Cybersecurity. I've always known that I wanted to go into the tech industry, but I really bounced around when it came to what kind of job I wanted to have in the future. I first started with editing my own blog on Tumblr when I was 11, to trying out some web design and web development, to thinking that I wanted to be a software engineer, and finally deciding that my actual interest is in cybersecurity... It has been a long ride! </p>
+
+                <p class="w3-container" style="padding-left: 6%; padding-right: 6%; font-size: 17px;">Outside of school, I am interested in gaming, esports, music, and anime. I think that maybe every single one of those aspects is responsible for taking me down the path that I am on now, hahaha. I like to hang out with friends after a long day and play FPS games, spooky games, and now we are even thinking of starting up DnD sessions. That love, specifically for an FPS game named Valorant, has taken me down on a path to also loving esports. When the season has begun, you can usually find me up at early hours or having late nights to watch the games.</p>
+
+            </div>
+
+        </div>
+
     </div>
 
     <div class="w3-flex" style="gap:40px; justify-content: center; flex-wrap: wrap; ">
